@@ -55,34 +55,34 @@ ALTER TABLE pensje ADD CONSTRAINT pensje_premie
 --pracownicy
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(1, 'Miron                    ', 'W³odarczyk                                                  ', '31-241 Kraków Al. 29 Listopada 210/5                        ', '229443912');
+VALUES(1, 'Miron                    ', 'Wlodarczyk                                                  ', '31-241 Krako Al. 29 Listopada 210/5                        ', '229443912');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(2, 'Jacek                    ', 'Stêpieñ                                                     ', '30-376 Kraków ul. Ba¿anki 5/9                               ', '566871228');
+VALUES(2, 'Jacek                    ', 'Stepien                                                     ', '30-376 Krakow ul. Balnki 5/9                               ', '566871228');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(3, 'Mariusz                  ', 'Kowalski                                                    ', '30-094 Kraków ul. Górna 26/9                                ', '329903611');
+VALUES(3, 'Mariusz                  ', 'Kowalski                                                    ', '30-094 Krakow ul. Ginna 26/9                                ', '329903611');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(4, 'Norbert                  ', 'Chmielewski                                                 ', '30-132 Kraków ul. Niedzia³kowskiego Mieczys³awa 12/5        ', '246496326');
+VALUES(4, 'Norbert                  ', 'Chmielewski                                                 ', '30-132 Krakow ul. Niedzialowskiego Mieczyslawa 12/5        ', '246496326');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(5, 'Emil                     ', 'Sadowski                                                    ', '31-917 Kraków Osiedle Hutnicze 2/5                          ', '324363530');
+VALUES(5, 'Emil                     ', 'Sadowski                                                    ', '31-917 Krakow Osiedle Hutnicze 2/5                          ', '324363530');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(6, 'Anita                    ', 'Nowak-Mazur                                                 ', '31-587 Kraków ul. Szafrañska 21/5                           ', '722416936');
+VALUES(6, 'Anita                    ', 'Nowak-Mazur                                                 ', '31-587 Krakow ul. Szafrska 21/5                           ', '722416936');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(7, 'Bogus³awa                ', 'Marciniak                                                   ', '30-415 Kraków ul. Bonarka 12/6                              ', '981987069');
+VALUES(7, 'Bogusè±‰wa                ', 'Marciniak                                                   ', '30-415 Krakow ul. Bonarka 12/6                              ', '981987069');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(8, 'Lucyna                   ', 'Kowalczyk-Starowicz                                         ', '30-898 Kraków ul. Œwie¿a 22/5                               ', '327905037');
+VALUES(8, 'Lucyna                   ', 'Kowalczyk-Starowicz                                         ', '30-898 Krakow ul. Galla 22/5                               ', '327905037');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(9, 'Matylda                  ', 'Zieliñska                                                   ', '31-056 Kraków ul. Józefa 62/1                               ', '201101573');
+VALUES(9, 'Matylda                  ', 'Zielinska                                                   ', '31-056 Krakow ul. Jozefa 62/1                               ', '201101573');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(10, 'Antonina                 ', 'Gajewska                                                    ', '30-003 Kraków ul. Lubelska 27/31                            ', '597618876');
+VALUES(10, 'Antonina                 ', 'Gajewska                                                    ', '30-003 Krakow ul. Lubelska 27/31                            ', '597618876');
 
 --godziny
 INSERT INTO public.godziny
