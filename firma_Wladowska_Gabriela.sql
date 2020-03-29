@@ -73,7 +73,7 @@ INSERT INTO public.pracownicy
 VALUES(6, 'Anita                    ', 'Nowak-Mazur                                                 ', '31-587 Krakow ul. Szafrska 21/5                           ', '722416936');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
-VALUES(7, 'Bogus豉wa                ', 'Marciniak                                                   ', '30-415 Krakow ul. Bonarka 12/6                              ', '981987069');
+VALUES(7, 'Boguslawa                ', 'Marciniak                                                   ', '30-415 Krakow ul. Bonarka 12/6                              ', '981987069');
 INSERT INTO public.pracownicy
 (id_pracownika, imie, nazwisko, adres, telefon)
 VALUES(8, 'Lucyna                   ', 'Kowalczyk-Starowicz                                         ', '30-898 Krakow ul. Galla 22/5                               ', '327905037');
