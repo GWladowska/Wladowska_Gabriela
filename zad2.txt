@@ -1,0 +1,23 @@
+1.zamowienia(id_produktu, nazwa_produktu, id_klienta, nazwa_klienta,
+data_zamowienia, cena_produktu, ilość, VAT, suma_brutto, suma_netto)
+
+id_produktu -> nazwa_produktu,cena_produktu,VAT
+id_klienta -> nazwa_klienta,data_zamowienia
+data_zamowienia -> ilosc,id_produktu
+cena_produktu -> suma_netto,suma_brutto
+
+2.klucze kandydujace
+id_klienta
+data_zamowienia
+
+3.pomieszczenia(id_pomieszczenia, numer_pomieszczenia, id_budynku,
+powierzchnia, liczba_okien, liczba_drzwi, ulica, miasto, kod_pocztowy)
+
+id_pomieszczenia -> numer_pomieszczenia, id_budynku
+numer_pomieszczenia -> powierzchnia,liczba_okien,liczba_drzwi
+id_budynku -> kod_pocztowy
+kod_pocztowy -> miasto,ulice
+
+klucze kandydujace
+numer_pomieszczenia
+id_budynku
