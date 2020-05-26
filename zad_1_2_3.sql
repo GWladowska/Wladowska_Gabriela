@@ -1,0 +1,11 @@
+--1 
+--wiersz polecen
+--cd C:\Program Files\PostgreSQL\12\bin
+--pg_dump -U postgres -W -F t firma > firma.tar
+--2
+--drop database firma 
+--3
+--create database firma 
+-- w wierszu polecen
+--cd C:\Program Files\PostgreSQL\12\bin
+--pg_restore -U postgres --dbname=firma --verbose firma.tar
