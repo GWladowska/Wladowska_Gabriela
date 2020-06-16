@@ -1,3 +1,3 @@
 # Bazy danych
 
-zadanie 3
+zadanie 2
